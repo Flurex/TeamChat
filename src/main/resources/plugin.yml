@@ -1,0 +1,5 @@
+name: TeamChat
+version: 2.0
+main: me.flurex.teamchat.TeamChat
+author: Flurex
+description: A private chat for your staff members
