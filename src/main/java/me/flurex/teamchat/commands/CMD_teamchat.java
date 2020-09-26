@@ -185,7 +185,10 @@ public class CMD_teamchat extends Command {
                     if(p.hasPermission(plugin.getConfigManager().getConfig().getString("permission_ghostmode"))) {
                         plugin.sendMessage(p, plugin.getConfigManager().getMessage("syntax_line_7"));
                     }
-                    plugin.sendMessage(p, plugin.getConfigManager().getMessage("syntax_line_8"));
+                    if(p.hasPermission(plugin.getConfigManager().getConfig().getString("permission_reload"))) {
+                        plugin.sendMessage(p, plugin.getConfigManager().getMessage("syntax_line_8"));
+                    }
+                    plugin.sendMessage(p, plugin.getConfigManager().getMessage("syntax_line_9"));
                 }
             } else {
                 plugin.sendMessage(p, plugin.getConfigManager().getMessage("noperms"));
