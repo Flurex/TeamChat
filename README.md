@@ -3,7 +3,7 @@ TeamChat is a BungeeCord Plugin that gives you a private Chat only for your Staf
 
 ## Getting started
 ###### Download
-Download the latest release and upload the jar file to the plugins folder of your BungeeCord Server.
+Download the <a href="https://github.com/Flurex/TeamChat/releases/latest">latest release</a> and upload the jar file to the plugins folder of your BungeeCord Server.
 
 ###### Start the Server
 Start your BungeeCord Server.
@@ -15,7 +15,7 @@ You can customize every message, every permission and much more in the config fi
 Now you have to either restart the Server or type "/tc reload" in the Chat to reload the config files.
 
 ###### Have Fun!
-Yes, the installation is that easy! If you have any problems please feel free to contact me through GitHub Issues.
+Yes, the installation is that easy! If you have any problems please feel free to contact me through <a href="https://github.com/Flurex/TeamChat/issues">Github Issues</a>.
 
 ## Features
 1. **Login/Logout System**: You can login/logout of the TeamChat with a command.
@@ -66,4 +66,4 @@ permission_update: 'tc.update'
 ```
 
 ## Need help?
-If you have any questions, feedback or need help setting it up, please feel free to contact me through GitHub Issues.
+If you have any questions, feedback or need help setting it up, please feel free to contact me through <a href="https://github.com/Flurex/TeamChat/issues">Github Issues</a>.
